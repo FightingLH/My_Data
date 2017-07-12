@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5216E71EFB57D50079FB00 /* 三方库以及地址.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB5216E61EFB57D50079FB00 /* 三方库以及地址.rtf */; };
+		EB5216EA1EFBB36C0079FB00 /* ItemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216E91EFBB36C0079FB00 /* ItemOne.m */; };
+		EB5216ED1EFBB3EF0079FB00 /* ItemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */; };
+		EB5216F01EFBB3FC0079FB00 /* ItemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */; };
 		EB69EA1B1EEF72DC00D36F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA1A1EEF72DC00D36F0E /* main.m */; };
 		EB69EA1E1EEF72DC00D36F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA1D1EEF72DC00D36F0E /* AppDelegate.m */; };
 		EB69EA211EEF72DC00D36F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA201EEF72DC00D36F0E /* ViewController.m */; };
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB5216E61EFB57D50079FB00 /* 三方库以及地址.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "三方库以及地址.rtf"; sourceTree = "<group>"; };
+		EB5216E81EFBB36C0079FB00 /* ItemOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOne.h; sourceTree = "<group>"; };
+		EB5216E91EFBB36C0079FB00 /* ItemOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOne.m; sourceTree = "<group>"; };
+		EB5216EB1EFBB3EF0079FB00 /* ItemTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTwo.h; sourceTree = "<group>"; };
+		EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTwo.m; sourceTree = "<group>"; };
+		EB5216EE1EFBB3FC0079FB00 /* ItemThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemThree.h; sourceTree = "<group>"; };
+		EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemThree.m; sourceTree = "<group>"; };
 		EB69EA161EEF72DC00D36F0E /* Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB69EA1A1EEF72DC00D36F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB69EA1C1EEF72DC00D36F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +116,12 @@
 			children = (
 				EB69EA1C1EEF72DC00D36F0E /* AppDelegate.h */,
 				EB69EA1D1EEF72DC00D36F0E /* AppDelegate.m */,
+				EB5216E81EFBB36C0079FB00 /* ItemOne.h */,
+				EB5216E91EFBB36C0079FB00 /* ItemOne.m */,
+				EB5216EB1EFBB3EF0079FB00 /* ItemTwo.h */,
+				EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */,
+				EB5216EE1EFBB3FC0079FB00 /* ItemThree.h */,
+				EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */,
 				EB69EA1F1EEF72DC00D36F0E /* ViewController.h */,
 				EB69EA201EEF72DC00D36F0E /* ViewController.m */,
 				EB69EA221EEF72DC00D36F0E /* Main.storyboard */,
@@ -113,6 +130,7 @@
 				EB69EA2A1EEF72DC00D36F0E /* Info.plist */,
 				EB69EA191EEF72DC00D36F0E /* Supporting Files */,
 				EB69EA4C1EEF731E00D36F0E /* File-knowledge.rtf */,
+				EB5216E61EFB57D50079FB00 /* 三方库以及地址.rtf */,
 			);
 			path = Knowledge;
 			sourceTree = "<group>";
@@ -254,6 +272,7 @@
 				EB69EA4D1EEF731E00D36F0E /* File-knowledge.rtf in Resources */,
 				EB69EA261EEF72DC00D36F0E /* Assets.xcassets in Resources */,
 				EB69EA241EEF72DC00D36F0E /* Main.storyboard in Resources */,
+				EB5216E71EFB57D50079FB00 /* 三方库以及地址.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB69EA211EEF72DC00D36F0E /* ViewController.m in Sources */,
+				EB5216EA1EFBB36C0079FB00 /* ItemOne.m in Sources */,
 				EB69EA1E1EEF72DC00D36F0E /* AppDelegate.m in Sources */,
 				EB69EA1B1EEF72DC00D36F0E /* main.m in Sources */,
+				EB5216ED1EFBB3EF0079FB00 /* ItemTwo.m in Sources */,
+				EB5216F01EFBB3FC0079FB00 /* ItemThree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +538,7 @@
 				EB69EA451EEF72DC00D36F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB69EA461EEF72DC00D36F0E /* Build configuration list for PBXNativeTarget "KnowledgeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +547,7 @@
 				EB69EA481EEF72DC00D36F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB69EA491EEF72DC00D36F0E /* Build configuration list for PBXNativeTarget "KnowledgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +556,7 @@
 				EB69EA4B1EEF72DC00D36F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
