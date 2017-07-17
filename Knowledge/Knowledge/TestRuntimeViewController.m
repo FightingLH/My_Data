@@ -9,7 +9,7 @@
 #import "TestRuntimeViewController.h"
 #import "UIImage+Image.h"
 #import "Student+Property.h"
-
+#import "TestA.h"
 @interface TestRuntimeViewController ()
 
 @end
@@ -28,9 +28,8 @@
     student.name = @"lihuan";
     student.age  = @"18";
     NSLog(@"通过categroy动态添加属性%@---%@",student.age,student.name);
-    
-    
-    
+    TestA *test = [[TestA alloc]init];
+    NSLog(@"%@", [test getURL:@"no url"]);
 }
 
 - (void)didReceiveMemoryWarning {
