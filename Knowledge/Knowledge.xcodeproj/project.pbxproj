@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB5216E71EFB57D50079FB00 /* 三方库以及地址.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB5216E61EFB57D50079FB00 /* 三方库以及地址.rtf */; };
-		EB5216EA1EFBB36C0079FB00 /* ItemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216E91EFBB36C0079FB00 /* ItemOne.m */; };
-		EB5216ED1EFBB3EF0079FB00 /* ItemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */; };
-		EB5216F01EFBB3FC0079FB00 /* ItemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */; };
 		EB69EA1B1EEF72DC00D36F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA1A1EEF72DC00D36F0E /* main.m */; };
 		EB69EA1E1EEF72DC00D36F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA1D1EEF72DC00D36F0E /* AppDelegate.m */; };
 		EB69EA211EEF72DC00D36F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA201EEF72DC00D36F0E /* ViewController.m */; };
@@ -20,6 +17,10 @@
 		EB69EA341EEF72DC00D36F0E /* KnowledgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA331EEF72DC00D36F0E /* KnowledgeTests.m */; };
 		EB69EA3F1EEF72DC00D36F0E /* KnowledgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA3E1EEF72DC00D36F0E /* KnowledgeUITests.m */; };
 		EB69EA4D1EEF731E00D36F0E /* File-knowledge.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB69EA4C1EEF731E00D36F0E /* File-knowledge.rtf */; };
+		EB86127B1F1C4A0E009FC83F /* TestRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB86127A1F1C4A0E009FC83F /* TestRuntimeViewController.m */; };
+		EB86127E1F1C4A36009FC83F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EB86127D1F1C4A36009FC83F /* UIImage+Image.m */; };
+		EB8612811F1C4D20009FC83F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8612801F1C4D20009FC83F /* Student.m */; };
+		EB8612841F1C4D3B009FC83F /* Student+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8612831F1C4D3B009FC83F /* Student+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +42,6 @@
 
 /* Begin PBXFileReference section */
 		EB5216E61EFB57D50079FB00 /* 三方库以及地址.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "三方库以及地址.rtf"; sourceTree = "<group>"; };
-		EB5216E81EFBB36C0079FB00 /* ItemOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOne.h; sourceTree = "<group>"; };
-		EB5216E91EFBB36C0079FB00 /* ItemOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOne.m; sourceTree = "<group>"; };
-		EB5216EB1EFBB3EF0079FB00 /* ItemTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTwo.h; sourceTree = "<group>"; };
-		EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTwo.m; sourceTree = "<group>"; };
-		EB5216EE1EFBB3FC0079FB00 /* ItemThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemThree.h; sourceTree = "<group>"; };
-		EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemThree.m; sourceTree = "<group>"; };
 		EB69EA161EEF72DC00D36F0E /* Knowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB69EA1A1EEF72DC00D36F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB69EA1C1EEF72DC00D36F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +59,14 @@
 		EB69EA3E1EEF72DC00D36F0E /* KnowledgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowledgeUITests.m; sourceTree = "<group>"; };
 		EB69EA401EEF72DC00D36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB69EA4C1EEF731E00D36F0E /* File-knowledge.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "File-knowledge.rtf"; sourceTree = "<group>"; };
+		EB8612791F1C4A0E009FC83F /* TestRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRuntimeViewController.h; sourceTree = "<group>"; };
+		EB86127A1F1C4A0E009FC83F /* TestRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRuntimeViewController.m; sourceTree = "<group>"; };
+		EB86127C1F1C4A36009FC83F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		EB86127D1F1C4A36009FC83F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		EB86127F1F1C4D20009FC83F /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		EB8612801F1C4D20009FC83F /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		EB8612821F1C4D3B009FC83F /* Student+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+Property.h"; sourceTree = "<group>"; };
+		EB8612831F1C4D3B009FC83F /* Student+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+Property.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +117,9 @@
 		EB69EA181EEF72DC00D36F0E /* Knowledge */ = {
 			isa = PBXGroup;
 			children = (
+				EB8612751F1C43F2009FC83F /* 测试运行时 */,
 				EB69EA1C1EEF72DC00D36F0E /* AppDelegate.h */,
 				EB69EA1D1EEF72DC00D36F0E /* AppDelegate.m */,
-				EB5216E81EFBB36C0079FB00 /* ItemOne.h */,
-				EB5216E91EFBB36C0079FB00 /* ItemOne.m */,
-				EB5216EB1EFBB3EF0079FB00 /* ItemTwo.h */,
-				EB5216EC1EFBB3EF0079FB00 /* ItemTwo.m */,
-				EB5216EE1EFBB3FC0079FB00 /* ItemThree.h */,
-				EB5216EF1EFBB3FC0079FB00 /* ItemThree.m */,
 				EB69EA1F1EEF72DC00D36F0E /* ViewController.h */,
 				EB69EA201EEF72DC00D36F0E /* ViewController.m */,
 				EB69EA221EEF72DC00D36F0E /* Main.storyboard */,
@@ -159,6 +157,21 @@
 				EB69EA401EEF72DC00D36F0E /* Info.plist */,
 			);
 			path = KnowledgeUITests;
+			sourceTree = "<group>";
+		};
+		EB8612751F1C43F2009FC83F /* 测试运行时 */ = {
+			isa = PBXGroup;
+			children = (
+				EB8612791F1C4A0E009FC83F /* TestRuntimeViewController.h */,
+				EB86127A1F1C4A0E009FC83F /* TestRuntimeViewController.m */,
+				EB86127C1F1C4A36009FC83F /* UIImage+Image.h */,
+				EB86127D1F1C4A36009FC83F /* UIImage+Image.m */,
+				EB86127F1F1C4D20009FC83F /* Student.h */,
+				EB8612801F1C4D20009FC83F /* Student.m */,
+				EB8612821F1C4D3B009FC83F /* Student+Property.h */,
+				EB8612831F1C4D3B009FC83F /* Student+Property.m */,
+			);
+			name = "测试运行时";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB69EA211EEF72DC00D36F0E /* ViewController.m in Sources */,
-				EB5216EA1EFBB36C0079FB00 /* ItemOne.m in Sources */,
 				EB69EA1E1EEF72DC00D36F0E /* AppDelegate.m in Sources */,
 				EB69EA1B1EEF72DC00D36F0E /* main.m in Sources */,
-				EB5216ED1EFBB3EF0079FB00 /* ItemTwo.m in Sources */,
-				EB5216F01EFBB3FC0079FB00 /* ItemThree.m in Sources */,
+				EB86127E1F1C4A36009FC83F /* UIImage+Image.m in Sources */,
+				EB86127B1F1C4A0E009FC83F /* TestRuntimeViewController.m in Sources */,
+				EB8612841F1C4D3B009FC83F /* Student+Property.m in Sources */,
+				EB8612811F1C4D20009FC83F /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C78VJKGV2J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Knowledge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.Knowledge;
@@ -466,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C78VJKGV2J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = Knowledge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.Knowledge;
