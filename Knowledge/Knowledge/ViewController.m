@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <objc/runtime.h>
 
 @interface ViewController ()
 
@@ -18,9 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
+    Class c = [NSObject class];
+    IMP greetintImp = imp_implementationWithBlock((NSString *)^(id self,NSString *name)
+        {
+            return [NSString stringWithFormat:@"hello,%@",name];
+        });
+    const char *greetingTypes = [[NSString stringWithFormat:@"%s%s%s",@encode(id),@encode(id),@encode(SEL)]UTF8String];
+    class_addMethod(c, @selector(greetingWithName), greetintImp, greetingTypes);
 }
 
+- (void)greetingWithName
+{
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
