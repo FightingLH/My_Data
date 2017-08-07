@@ -17,6 +17,7 @@
 		EB69EA341EEF72DC00D36F0E /* KnowledgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA331EEF72DC00D36F0E /* KnowledgeTests.m */; };
 		EB69EA3F1EEF72DC00D36F0E /* KnowledgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69EA3E1EEF72DC00D36F0E /* KnowledgeUITests.m */; };
 		EB69EA4D1EEF731E00D36F0E /* File-knowledge.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB69EA4C1EEF731E00D36F0E /* File-knowledge.rtf */; };
+		EB6EA3181F345D0800B4FD9D /* NSTestValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6EA3171F345D0800B4FD9D /* NSTestValueTransformer.m */; };
 		EB86127B1F1C4A0E009FC83F /* TestRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB86127A1F1C4A0E009FC83F /* TestRuntimeViewController.m */; };
 		EB86127E1F1C4A36009FC83F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EB86127D1F1C4A36009FC83F /* UIImage+Image.m */; };
 		EB8612811F1C4D20009FC83F /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8612801F1C4D20009FC83F /* Student.m */; };
@@ -60,6 +61,8 @@
 		EB69EA3E1EEF72DC00D36F0E /* KnowledgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnowledgeUITests.m; sourceTree = "<group>"; };
 		EB69EA401EEF72DC00D36F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB69EA4C1EEF731E00D36F0E /* File-knowledge.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "File-knowledge.rtf"; sourceTree = "<group>"; };
+		EB6EA3161F345D0800B4FD9D /* NSTestValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTestValueTransformer.h; sourceTree = "<group>"; };
+		EB6EA3171F345D0800B4FD9D /* NSTestValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTestValueTransformer.m; sourceTree = "<group>"; };
 		EB8612791F1C4A0E009FC83F /* TestRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRuntimeViewController.h; sourceTree = "<group>"; };
 		EB86127A1F1C4A0E009FC83F /* TestRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRuntimeViewController.m; sourceTree = "<group>"; };
 		EB86127C1F1C4A36009FC83F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				EB69EA1D1EEF72DC00D36F0E /* AppDelegate.m */,
 				EB69EA1F1EEF72DC00D36F0E /* ViewController.h */,
 				EB69EA201EEF72DC00D36F0E /* ViewController.m */,
+				EB6EA3161F345D0800B4FD9D /* NSTestValueTransformer.h */,
+				EB6EA3171F345D0800B4FD9D /* NSTestValueTransformer.m */,
 				EB69EA221EEF72DC00D36F0E /* Main.storyboard */,
 				EB69EA251EEF72DC00D36F0E /* Assets.xcassets */,
 				EB69EA271EEF72DC00D36F0E /* LaunchScreen.storyboard */,
@@ -328,6 +333,7 @@
 				EB69EA1E1EEF72DC00D36F0E /* AppDelegate.m in Sources */,
 				EB69EA1B1EEF72DC00D36F0E /* main.m in Sources */,
 				EB86127E1F1C4A36009FC83F /* UIImage+Image.m in Sources */,
+				EB6EA3181F345D0800B4FD9D /* NSTestValueTransformer.m in Sources */,
 				EB86127B1F1C4A0E009FC83F /* TestRuntimeViewController.m in Sources */,
 				EB8612841F1C4D3B009FC83F /* Student+Property.m in Sources */,
 				EB8612811F1C4D20009FC83F /* Student.m in Sources */,
